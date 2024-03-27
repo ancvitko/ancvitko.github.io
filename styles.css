@@ -1,0 +1,123 @@
+/* add a black background to the class "topnav" */
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+
+#topnav {
+    position: fixed; /* Fix the navbar position */
+    top: 0; /* Position it at the top of the viewport */
+    width: 100%; /* Make it take up the full width */
+    background-color: black; /* Background color */
+    color: white; /* Text color */
+    border-color: white; /* Border color */
+    border-style: solid; /* Border style */
+    border-right: 0px; /* Remove the right border */
+    border-left: 0px; /* Remove the left border */ 
+    border-top: 0px; /* Remove the top border */
+    border-width: 1px; /* Set the border width */
+    z-index: 1000; /* Ensure it's on top of other content */
+
+
+    display: flex;
+    padding-left: 2em;
+    padding-right: 2em;
+    
+    .navleft {
+        float: left; /* Float the left part of the navbar to the left */
+        display: grid;
+        place-items: left;
+        padding: 2%;
+    }
+    
+    .navbuttons {
+        display: flex;
+        flex-grow: 1;
+        justify-content: right;
+        float: right; /* Float the right part of the navbar to the right */
+        padding-right: 7.5%;
+    }
+    
+        button{
+            background-color: transparent;
+            color: white;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 38px;
+            font-family: 'Quicksand', sans-serif;    
+        }
+}
+
+#content{
+    display:flex;
+    flex-direction: column;
+    place-items: center;
+    text-align: center;
+    flex-grow: 1;
+}
+
+#aboutparagraph{
+    padding-bottom: 30%;
+    padding-top: 10%;
+    text-align: justify;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-family: 'Quicksand', sans-serif; 
+    font-weight: 700;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 1.15;
+    letter-spacing: -.02em; 
+    -webkit-font-smoothing: antialiased;
+    padding-bottom: 1%;    
+    padding-right: 5%;
+    
+}
+
+/*disable scroll bar*/
+body::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+.hidden{
+    opacity: 0;
+    filter:blur(5px);
+    transform: translateX(-100%);
+    transition: all 0.7s;
+    
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 38px;
+    line-height: 1.15;
+    letter-spacing: -.02em;
+    -webkit-font-smoothing: antialiased;
+}
+
+section{
+    padding: 2em;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    color:white;
+    justify-content: center;
+}
