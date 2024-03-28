@@ -17,7 +17,7 @@ hiddenElements.forEach((el) => {
 
 
 // global tag handles parcel deletion DO NOT REMOVE IT
-global.goToConverter = function goToConverter() {
+function goToConverter() {
   window.location.href = 'https://ancvitko.github.io/file-converter';
 }
 

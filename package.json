@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build --dist-dir public",
+    "build": "parcel build --no-optimize --no-scope-hoist --dist-dir public",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
