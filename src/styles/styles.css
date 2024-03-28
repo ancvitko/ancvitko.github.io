@@ -4,10 +4,7 @@
 
 
 #topnav {
-    position: fixed; /* Fix the navbar position */
-    top: 0; /* Position it at the top of the viewport */
-    width: 100%; /* Make it take up the full width */
-    background-color: black; /* Background color */
+    background-color: rgb(8, 7, 14); /* Background color */
     color: white; /* Text color */
     border-color: white; /* Border color */
     border-style: solid; /* Border style */
@@ -15,7 +12,11 @@
     border-left: 0px; /* Remove the left border */ 
     border-top: 0px; /* Remove the top border */
     border-width: 1px; /* Set the border width */
+
     z-index: 1000; /* Ensure it's on top of other content */
+    position: fixed; /* Fix the navbar position */
+    top: 0; /* Position it at the top of the viewport */
+    width: 100%; /* Take the full width of the viewport */
 
 
     display: flex;
@@ -36,16 +37,6 @@
         float: right; /* Float the right part of the navbar to the right */
         padding-right: 7.5%;
     }
-    
-        button{
-            background-color: transparent;
-            color: white;
-            border: none;
-            cursor: pointer;
-            text-decoration: none;
-            font-size: 38px;
-            font-family: 'Quicksand', sans-serif;    
-        }
 }
 
 #content{
@@ -57,7 +48,7 @@
 }
 
 #aboutparagraph{
-    padding-bottom: 30%;
+    padding-bottom: 20%;
     padding-top: 10%;
     text-align: justify;
 }
@@ -73,9 +64,9 @@ footer{
     line-height: 1.15;
     letter-spacing: -.02em; 
     -webkit-font-smoothing: antialiased;
-    padding-bottom: 1%;    
+    padding-top: 4%;    
     padding-right: 5%;
-    
+    background-color: rgb(8, 7, 14);
 }
 
 /*disable scroll bar*/
@@ -117,7 +108,17 @@ body {
     font-family: 'Muli', sans-serif;
     height: 100vh;
     margin: 0;
-    background-color: black;
+    background-color: rgb(16, 18, 20);
     color:white;
     justify-content: center;
+}
+
+button{
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 38px;
+    font-family: 'Quicksand', sans-serif;    
 }

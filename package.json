@@ -1,0 +1,20 @@
+{
+  "name": "ancvitko.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build --dist-dir public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "locomotive-scroll": "^4.1.4"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
