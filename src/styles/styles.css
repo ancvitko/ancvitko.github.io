@@ -3,15 +3,17 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
 
+
 #topnav {
-    background-color: rgb(8, 7, 14); /* Background color */
+    background: linear-gradient(180deg, rgb(5, 4, 8) 10%, rgb(24, 27, 30) 100%);
+    
     color: white; /* Text color */
-    border-color: white; /* Border color */
-    border-style: solid; /* Border style */
-    border-right: 0px; /* Remove the right border */
-    border-left: 0px; /* Remove the left border */ 
-    border-top: 0px; /* Remove the top border */
-    border-width: 1px; /* Set the border width */
+    border-color: white;
+    border-style: solid;
+    border-right: 0px; 
+    border-left: 0px; 
+    border-top: 0px; 
+    border-width: 1px;
 
     z-index: 1000; /* Ensure it's on top of other content */
     position: fixed; /* Fix the navbar position */
@@ -53,21 +55,7 @@
     text-align: justify;
 }
 
-footer{
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-    font-family: 'Quicksand', sans-serif; 
-    font-weight: 700;
-    font-style: normal;
-    font-size: 10px;
-    line-height: 1.15;
-    letter-spacing: -.02em; 
-    -webkit-font-smoothing: antialiased;
-    padding-top: 4%;    
-    padding-right: 5%;
-    background-color: rgb(8, 7, 14);
-}
+
 
 /*disable scroll bar*/
 body::-webkit-scrollbar {
@@ -100,6 +88,30 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-family: 'Quicksand', sans-serif; 
+    font-weight: 700;
+    font-style: normal;
+
+    line-height: 1.15;
+    letter-spacing: -.02em; 
+    -webkit-font-smoothing: antialiased;
+    padding-top: 3%;    
+    padding-right: 5%;
+    background: (rgb(5, 4, 8) 10%,);
+
+    border-color: white;
+    border-style: solid;
+    border-right: 0px; 
+    border-left: 0px; 
+    border-bottom: 0px; 
+    border-width: 1px;
+    height:10%;
+}
+
 section{
     padding: 2em;
 }
@@ -108,7 +120,7 @@ body {
     font-family: 'Muli', sans-serif;
     height: 100vh;
     margin: 0;
-    background-color: rgb(16, 18, 20);
+    background: linear-gradient(0deg, rgb(5, 4, 8) 10%, rgb(24, 27, 30) 100%);
     color:white;
     justify-content: center;
 }
