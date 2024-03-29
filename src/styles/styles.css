@@ -20,7 +20,6 @@
     top: 0; /* Position it at the top of the viewport */
     width: 100%; /* Take the full width of the viewport */
 
-
     display: flex;
     padding-left: 2em;
     padding-right: 2em;
@@ -55,12 +54,6 @@
     text-align: justify;
 }
 
-
-
-/*disable scroll bar*/
-body::-webkit-scrollbar {
-    display: none;
-}
 
 html {
     scroll-behavior: smooth;
